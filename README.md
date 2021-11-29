@@ -1,8 +1,8 @@
-<h1>React Dev Week</h1>
-<h2>EBAC - Escola Britânica de Artes Criativas & Tecnologia/h2>
-<h3>Projeto: AcessaBR</h3>
-<h4>Projetado por <a href="https://github.com/cavalcantemmarcelo" target="_blank" alt="Página do Github do Marcelo Cavalcante">Marcelo Cavalcante</a> e <a href="https://github.com/mja-maia" target="_blank" alt="Página do Github do Miguel Maia">Miguel Maia</a>, desenvolvido por <a href="https://chavatte.online" target="_blank" alt="Página pessoal de João Carlos Chavatte">João Carlos Chavatte</a>.</h4>
-<a href="https://acessabr.chavatte.onlne/ target="_blank" alt="Página de acessibilidade de São Carlos-SP">AcessaBR</a>
+<h1>React Dev Week</h1></br>
+<h2>EBAC - Escola Britânica de Artes Criativas & Tecnologia/h2></br>
+<h3>Projeto: AcessaBR</h3></br>
+<h4>Projetado por <a href="https://github.com/cavalcantemmarcelo" target="_blank" alt="Página do Github do Marcelo Cavalcante">Marcelo Cavalcante</a> e <a href="https://github.com/mja-maia" target="_blank" alt="Página do Github do Miguel Maia">Miguel Maia</a>, desenvolvido por <a href="https://chavatte.online" target="_blank" alt="Página pessoal de João Carlos Chavatte">João Carlos Chavatte</a>.</h4></br></br>
+<a href="https://acessabr.chavatte.onlne/ target="_blank" alt="Página de acessibilidade de São Carlos-SP">AcessaBR</a></br></br></hr>
 
 
 
