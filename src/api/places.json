@@ -4,8 +4,9 @@
       "id": 1,
       "name": "C.D.C.C. - São Carlos",
       "image": "/places/cdcc.jpg",
-      "category": "Locais, Museus",
+      "category": "Museus",
       "description": "O Centro de Divulgação Científica e Cultural (CDCC) localiza-se no centro da cidade.",
+      "link": "https://cdcc.usp.br/sobre/",
       "location": {
         "lat": "01234",
         "long": "4321"
@@ -27,8 +28,9 @@
       "id": 2,
       "name": "Parque Ecológico Saõ Carlos",
       "image": "/places/parque-ecologico.jpg",
-      "category": "Locais, Parques, Zoológicos",
+      "category": "Parques, Zoológicos",
       "description": "O parque é especializado na preservação e manejo da fauna silvestre da América do Sul.",
+      "link": "https://pt-br.facebook.com/ParqueEcologicoSaoCarlos",
       "location": {
         "lat": "01234",
         "long": "4321"
@@ -50,8 +52,9 @@
       "id": 3,
       "name": "Museu da Ciência",
       "image": "/places/museu-ciencias.jpg",
-      "category": "Locais, Museus",
+      "category": "Museus",
       "description": "Um espaço de recreação e educação com temática científica, tecnológica e artística.",
+      "link": "http://www.saocarlos.sp.gov.br/index.php/utilidade-publica/museu-da-ciencia-prof-mario-tolentino.html",
       "location": {
         "lat": "01234",
         "long": "4321"
@@ -72,9 +75,10 @@
     {
       "id": 4,
       "name": "Observatório Dietrich Schiel",
-      "category": "Museus, Locais",
+      "category": "Museus",
       "image": "/places/observatorio.jpg",
       "description": "O observatório astronômico profissional é em pequena escala e destinado à divulgação da astronomia.",
+      "link": "https://cdcc.usp.br/contato/",
       "location": {
         "lat": "01234",
         "long": "4321"
@@ -95,9 +99,10 @@
     {
       "id": 5,
       "name": "Mercado Municipal",
-      "category": "Locais, Mercados",
+      "category": "Mercados",
       "image": "/places/mercado-municipal.jpg",
       "description": "Comercialização de frutas, verduras, cereais, carnes, temperos e outros produtos alimentícios.",
+      "link": "https://pt.wikipedia.org/wiki/Mercado_Municipal_de_S%C3%A3o_Carlos",
       "location": {
         "lat": "01234",
         "long": "4321"

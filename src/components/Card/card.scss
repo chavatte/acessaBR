@@ -26,6 +26,7 @@
 
     p {
       font-size: 1.8rem;
+      height: 12rem;
       line-height: 2.1rem;
       margin-bottom: 1rem;
     }
@@ -51,5 +52,11 @@
         background-color: var(--LightGray);
       }
     }
+  }
+
+  &__button {
+    display: inline-block;
+    text-decoration: none;
+    margin: 1rem auto 0;
   }
 }

@@ -1,23 +1,17 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { useParams } from 'react-router';
 import './home.scss';
 import imageDestack from '../../images/imagem-destaque.png';
+import { useParams } from 'react-router';
 import { FilterContext } from '../../contexts/FilterContext';
-import Pills from '../../components/Pills'
 import { LocationContext } from '../../contexts/LocationContext';
+import Pills from '../../components/Pills'
 
 const PLACES = [
-  'Locais',
-  'Praças',
+  'Todos',
   'Parques',
-  'Igrejas',
-  'Hoteis',
   'Museus',
   'Mercados',
   'Zoológicos',
-  'Restaurantes',
-  'Farmácias',
-  'lojas',   
 ]
 
 const Home = () => {
@@ -25,12 +19,14 @@ const Home = () => {
   const {setCity, setState} = useContext(LocationContext);
   const {filteredPlaces, setFilteredPlaces} = useContext(FilterContext);
   const handFilterPlace = (item) => {
-    if(item === filteredPlaces){
-      setFilteredPlaces('')
-      return
+    if(item !== filteredPlaces){
+      setFilteredPlaces(item)
     }
-    setFilteredPlaces(item)
+    if (item === 'Todos')
+      setFilteredPlaces('')
+
   }
+
   useEffect(() => {
     setCity(city)
     setState(state)
