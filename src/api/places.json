@@ -1,0 +1,119 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "C.D.C.C. - São Carlos",
+      "image": "/places/cdcc.jpg",
+      "category": "Locais, Museus",
+      "description": "O Centro de Divulgação Científica e Cultural (CDCC) localiza-se no centro da cidade.",
+      "location": {
+        "lat": "01234",
+        "long": "4321"
+      },
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": false },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": false },
+        { "item": 7, "status": true },
+        { "item": 8, "status": false},
+        { "item": 9, "status": true },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Parque Ecológico Saõ Carlos",
+      "image": "/places/parque-ecologico.jpg",
+      "category": "Locais, Parques, Zoológicos",
+      "description": "O parque é especializado na preservação e manejo da fauna silvestre da América do Sul.",
+      "location": {
+        "lat": "01234",
+        "long": "4321"
+      },
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": false },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": false },
+        { "item": 7, "status": true },
+        { "item": 8, "status": false},
+        { "item": 9, "status": true },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Museu da Ciência",
+      "image": "/places/museu-ciencias.jpg",
+      "category": "Locais, Museus",
+      "description": "Um espaço de recreação e educação com temática científica, tecnológica e artística.",
+      "location": {
+        "lat": "01234",
+        "long": "4321"
+      },
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": false },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": false },
+        { "item": 7, "status": true },
+        { "item": 8, "status": false},
+        { "item": 9, "status": true },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Observatório Dietrich Schiel",
+      "category": "Museus, Locais",
+      "image": "/places/observatorio.jpg",
+      "description": "O observatório astronômico profissional é em pequena escala e destinado à divulgação da astronomia.",
+      "location": {
+        "lat": "01234",
+        "long": "4321"
+      },
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": false },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": false },
+        { "item": 7, "status": true },
+        { "item": 8, "status": false},
+        { "item": 9, "status": true },
+        { "item": 10, "status": true }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mercado Municipal",
+      "category": "Locais, Mercados",
+      "image": "/places/mercado-municipal.jpg",
+      "description": "Comercialização de frutas, verduras, cereais, carnes, temperos e outros produtos alimentícios.",
+      "location": {
+        "lat": "01234",
+        "long": "4321"
+      },
+      "facilities": [
+        { "item": 1, "status": true },
+        { "item": 2, "status": true },
+        { "item": 3, "status": false },
+        { "item": 4, "status": true },
+        { "item": 5, "status": true },
+        { "item": 6, "status": false },
+        { "item": 7, "status": true },
+        { "item": 8, "status": false},
+        { "item": 9, "status": true },
+        { "item": 10, "status": true }
+      ]
+    }
+  ]
+}
