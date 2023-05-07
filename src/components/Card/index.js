@@ -84,7 +84,7 @@ const Card = ({item}) => {
           </li>
         </ul>
         <p>{item.description}</p>
-        <a href={item.link} target="_blank" className="card__button button" rel="noreferrer">Mais informações</a>
+        <a href={item.link} target="_blank" className="card__button button">Mais informações</a>
       </div>
     </div>
   )
