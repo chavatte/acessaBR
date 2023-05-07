@@ -6,7 +6,6 @@ import Home from "../pages/Home";
 import Header from "../components/Header";
 import CuratorItem from '../components/Curator';
 import Places from '../components/Places';
-import { Fragment } from "react/cjs/react.production.min";
 
 const Routes = () => {
   const [city, setCity] = useState('');
@@ -18,11 +17,11 @@ const Routes = () => {
         <Header />
         <Switch>
           <Route path="/:state/:city" element={
-            <Fragment>
+            <>
               <Home />
               <Places />
               <CuratorItem />
-            </Fragment>
+            </>
           }
           />
         </Switch>

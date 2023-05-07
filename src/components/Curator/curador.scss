@@ -1,5 +1,4 @@
 .curator {
-
   &__container {
     align-items: center;
     background-color: rgba(0, 182, 193, .5);
@@ -30,9 +29,10 @@
     width: 40%;
 
     div {
-      align-items: flex-end;
+      align-items: flex-start;
       display: flex;
       margin-bottom: 1rem;
+      flex-direction: column;
 
       h3 {
         font-size: 2rem;
@@ -44,7 +44,6 @@
         color: var(--darkGray);
         font-size: 1.2rem;
         line-height: 1.3rem;
-        margin: 0 1rem;
       }
 
     }

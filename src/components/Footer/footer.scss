@@ -17,9 +17,11 @@
       padding: 4rem 0;
 
       a {
-        color: #0070C1;
+        text-decoration: none;
+        color: #FFFFFF;
         &:hover {
-          color: var(--blue);
+          font-weight: bolder;
+          color: #000;
         }
       }
 

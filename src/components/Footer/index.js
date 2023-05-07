@@ -16,10 +16,10 @@ function Footer() {
         <div className="footer__container">
           <p>
             <strong>
-              Projeto Elaborado durante a RDW <a href="https://ebaconline.com.br/" target="_blank" alt="Portal da EBAC">E.B.A.C</a> 2021
+              Projeto Elaborado durante a RDW <a href="https://ebaconline.com.br/" target="_blank" alt="Portal da EBAC" rel="noreferrer">E.B.A.C</a> 2021
             </strong>
             <small>
-              Projetado por <a href="https://github.com/cavalcantemmarcelo" target="_blank" alt="Página do Github do Marcelo Cavalcante">Marcelo Cavalcante</a> e <a href="https://github.com/mja-maia" target="_blank" alt="Página do Github do Miguel Maia">Miguel Maia</a>, desenvolvido por <a href="https://chavatte.online" target="_blank" alt="Página pessoal de João Carlos Chavatte">João Carlos Chavatte</a>.
+              Projetado por <a href="https://github.com/cavalcantemmarcelo" target="_blank" alt="Página do Github do Marcelo Cavalcante" rel="noreferrer">Marcelo Cavalcante</a> e <a href="https://github.com/mja-maia" target="_blank" alt="Página do Github do Miguel Maia" rel="noreferrer">Miguel Maia</a>, desenvolvido por <a href="https://chavatte.online" target="_blank" alt="Página pessoal de João Carlos Chavatte" rel="noreferrer">João Carlos Chavatte</a>.
             </small>
            </p>
            <a href="#top" className="button">

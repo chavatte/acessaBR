@@ -1,6 +1,5 @@
 import React from "react";
 import './card.scss';
-import Button from '../Button';
 import iconAudio from '../../images/icon-audio-descricao.png';
 import iconBanheiro from '../../images/icon-banheiro-acessivel.png';
 import iconBraile from '../../images/icon-braile.png';
@@ -84,7 +83,7 @@ const Card = ({item}) => {
           </li>
         </ul>
         <p>{item.description}</p>
-        <a href={item.link} target="_blank" className="card__button button">Mais informações</a>
+        <a href={item.link} target="_blank" className="card__button button" rel="noreferrer">Mais informações</a>
       </div>
     </div>
   )
