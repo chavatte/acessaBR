@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState} from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './home.scss';
 import imageDestack from '../../images/imagem-destaque.png';
 import { useParams } from 'react-router';
@@ -15,8 +15,8 @@ const PLACES = [
 ]
 
 const Home = () => {
-  const { city } = useParams();
-  const {setCity } = useContext(LocationContext);
+  const { city, state } = useParams();
+  const {setCity, setState} = useContext(LocationContext);
   const {filteredPlaces, setFilteredPlaces} = useContext(FilterContext);
   const handFilterPlace = (item) => {
     if(item !== filteredPlaces){
@@ -29,7 +29,8 @@ const Home = () => {
 
   useEffect(() => {
     setCity(city)
-  }, [city]);
+    setState(state)
+  }, [city, state]);
   
   return (
     <main id="main-content" className="home__container">

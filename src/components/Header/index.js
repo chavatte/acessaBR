@@ -5,13 +5,13 @@ import logoAcessaBr from '../../images/logo-acessaBR.svg';
 import logoEbac from '../../images/logo-ebac.svg';
 
 const Header = props => {
-  const { city } = useContext(LocationContext);
+  const { city, state} = useContext(LocationContext);
   return(
     <header className="header__container">
       <div className="header__logo header__logo--state">
         <img src={logoAcessaBr} alt="Logo AcessaBR"/>
         <span className="header__city">
-           / {city} - SP
+           / {city} - {state}
         </span>
       </div>
       <div className="header__logo header__logo--ebac">
