@@ -1,5 +1,6 @@
 import React from "react";
 import './card.scss';
+import Button from '../Button';
 import iconAudio from '../../images/icon-audio-descricao.png';
 import iconBanheiro from '../../images/icon-banheiro-acessivel.png';
 import iconBraile from '../../images/icon-braile.png';
