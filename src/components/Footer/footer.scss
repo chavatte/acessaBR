@@ -17,9 +17,10 @@
       padding: 4rem 0;
 
       a {
-        color: #0070C1;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
         &:hover {
-          color: var(--blue);
+          color: #000;
         }
       }
 
@@ -30,6 +31,7 @@
       }
 
       &--second {
+        text-align: center;
         background-color: var(--green);
         color: #FFFFFF;
         font-size: 1.8rem;
