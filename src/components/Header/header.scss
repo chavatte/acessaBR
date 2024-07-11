@@ -1,12 +1,11 @@
-@import '../../styles/responsive';
+@import "../../styles/responsive";
 
 .header {
-
   &__container {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 4rem 0; // 1 rem = 10px
+    margin: 4rem 0;
     width: 100%;
   }
 
@@ -15,10 +14,9 @@
     display: flex;
 
     &--state {
-      
       img {
-        margin-right:  1rem;
-      }      
+        margin-right: 1rem;
+      }
     }
   }
 
@@ -36,7 +34,6 @@
   }
 
   @media (max-width: $mobileLarge) {
-
     &__logo {
       flex-wrap: wrap;
 
@@ -51,7 +48,7 @@
     }
 
     &__span {
-      margin-bottom: .4rem;
+      margin-bottom: 0.4rem;
     }
   }
 }

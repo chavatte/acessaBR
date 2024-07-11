@@ -1,22 +1,32 @@
 import React from "react";
-import './button.scss';
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import "./button.scss";
+function Button({ children, onClick, width, to, target }) {
+  const buttonContent = <>{children}</>;
 
-function Button({ children, onClick, width }) {
   return (
     <button className="button" onClick={onClick} style={{ width }}>
-      {children}
+      {to ? (
+        <Link to={to} target={target} rel="noopener noreferrer">
+          {buttonContent}
+        </Link>
+      ) : (
+        buttonContent
+      )}
     </button>
-  )
+  );
 }
 
-Button.PropType = {
+Button.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node
+    PropTypes.node,
   ]),
-  onClick: PropTypes.func.isRequired,
-  width: PropTypes.number.isRequired
-}
+  onClick: PropTypes.func,
+  width: PropTypes.number.isRequired,
+  to: PropTypes.string,
+  target: PropTypes.string,
+};
 
 export default Button;

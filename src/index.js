@@ -1,19 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Routes from './routes';
-import './styles/global.scss';
-import Footer from './components/Footer';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import "./styles/global.scss";
+import { UserProvider } from "./contexts/UserContext";
+import Footer from "./components/Footer";
+import Routes from "./routes";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
   <div className="main__wrapper">
     <div className="main__container">
       <BrowserRouter>
-        <Routes />
+        <UserProvider>
+          <Routes />
+        </UserProvider>
       </BrowserRouter>
     </div>
     <Footer />
   </div>
-  ,
-  document.getElementById('root')
 );

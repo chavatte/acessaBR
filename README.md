@@ -1,79 +1,76 @@
-<h1>React Dev Week</h1></br>
-<h2>EBAC - Escola Britânica de Artes Criativas & Tecnologia</h2></br>
-<h3>Projeto: AcessaBR</h3></br>
-<h4>Projetado por <a href="https://github.com/cavalcantemmarcelo" target="_blank" alt="Página do Github do Marcelo Cavalcante">Marcelo Cavalcante</a> e <a href="https://github.com/mja-maia" target="_blank" alt="Página do Github do Miguel Maia">Miguel Maia</a>, desenvolvido por <a href="https://chavatte.online" target="_blank" alt="Página pessoal de João Carlos Chavatte">João Carlos Chavatte</a>.</h4></br></br>
-<p>Acesse o projeto:
-<a href="https://acessabr.chavatte.online/SP/S%C3%A3o%20Carlos" target="_blank" alt="Página de acessibilidade de São Carlos-SP">AcessaBR <b>São Caarlos - SP</b></a></p></br></br></hr>
 
+<div style="display: flex; align-items: center;">
+  <img src="./src/images/imagem-destaque.png" alt="Imagem de Destaque" style="max-width: 100px; height: auto;">
+  <img src="./src/images/logo-acessaBR.svg" alt="Logo do AcessaBR" style="margin-left: 20px;">
+</div>
+<h2 style="margin-top: 10px;">Guia de Acessibilidade em São Carlos-SP</h2>
 
+O AcessaBR é um projeto web desenvolvido em React que visa promover a inclusão e acessibilidade em São Carlos-SP. A aplicação facilita o encontro entre pessoas com deficiência e estabelecimentos que oferecem recursos de acessibilidade, como rampas, elevadores, sinalização em braile, entre outros.
 
-# Getting Started with Create React App
+### Funcionalidades
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* **Listagem de Locais Acessíveis:** Apresenta uma lista de locais na cidade que possuem recursos de acessibilidade, com informações detalhadas sobre cada um.
+* **Filtros:** Permite filtrar os locais por categorias (parques, museus, mercados, etc.).
+* **Ordenação:** Possibilita ordenar os locais por distância em relação à localização do usuário ou em ordem alfabética.
+* **Geolocalização:** Utiliza a localização do usuário para calcular a distância dos locais e exibir os mais próximos primeiro.
+* **Informações Detalhadas:** Cada local possui um card com foto, descrição, link para mais informações e ícones indicando os recursos de acessibilidade disponíveis.
 
-## Available Scripts
+### Tecnologias Utilizadas
 
-In the project directory, you can run:
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+* **React Router:** Roteamento para navegação entre as páginas da aplicação.
+* **Swiper:** Biblioteca para criar o carrossel de locais.
+* **Geolib:** Biblioteca para calcular distâncias geográficas.
+* **Sass (SCSS):** Pré-processador CSS para facilitar a estilização.
+* **Context API:** Gerenciamento de estados globais da aplicação (filtros, localização do usuário).
 
-### `yarn start`
+### Como Executar o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Clone o repositório:**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   **Bash**
 
-### `yarn test`
+   ```
+   git clone https://github.com/chavatte/acessabr.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Instale as dependências:**
 
-### `yarn build`
+   **Bash**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   cd acessabr
+   yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Inicie o servidor de desenvolvimento:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   **Bash**
 
-### `yarn eject`
+   ```
+   yarn start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. **Acesse a aplicação no navegador:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```
+   http://localhost:3000/SP/São%20Carlos
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Estrutura do Projeto
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* **`src/api/places.json`:** Contém os dados dos locais acessíveis.
+* **`src/components/`:** Contém os componentes reutilizáveis da aplicação.
+* **`src/contexts/`:** Contém os contextos para gerenciar estados globais.
+* **`src/pages/`:** Contém as páginas da aplicação.
+* **`src/routes/`:** Define as rotas da aplicação.
+* **`src/styles/`:** Contém os arquivos de estilo (Sass).
 
-## Learn More
+### Contribuição
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuições são bem-vindas! Se você encontrar algum problema, tiver sugestões de melhorias ou quiser adicionar novos recursos, **sinta-se à vontade para abrir uma issue ou enviar um pull request.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Versão Online
+O AcessaBR também está disponível online para testes e demonstração:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[AcessaBR - São Carlos](https://chavatte-acessabr.vercel.app/SP/S%C3%A3o%20Carlos)

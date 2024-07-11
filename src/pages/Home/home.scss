@@ -1,6 +1,6 @@
-@import '../../styles/responsive';
+@import "../../styles/responsive";
+
 .home {
-  
   &__container {
     display: flex;
     flex-direction: row;
@@ -37,10 +37,10 @@
   &__image {
     text-align: center;
     img {
-     width: 80%; 
+      width: 80%;
     }
   }
-  
+
   &__pills {
     display: flex;
     flex-direction: row;

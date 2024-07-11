@@ -1,18 +1,15 @@
-$desktop: 1023px; // max width
+$desktop: 1023px;
 $mobileLarge: 425px;
 $mobileSmall: 300px;
 
-@media (max-width: $desktop){
-
+@media (max-width: $desktop) {
   .hide-mobile {
     display: none;
   }
 }
 
-
-@media (min-width: 1024px){
-
+@media (min-width: 1024px) {
   .hide-desktop {
     display: none;
   }
-}  
+}
