@@ -42,15 +42,20 @@
 
       h6 {
         color: var(--darkGray);
-        font-size: 1.2rem;
+        font-size: 2rem;
         line-height: 1.3rem;
         margin: 0 1rem;
       }
     }
 
     p {
+      margin-left: 3rem;
       font-size: 1.5rem;
       width: 100%;
+    }
+
+    li {
+      margin-left: 0.2rem;
     }
   }
 }

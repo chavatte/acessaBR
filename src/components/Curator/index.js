@@ -14,10 +14,13 @@ function CuratorItem() {
           <h6>Curadoria</h6>
         </div>
         <p>
-          Especialista em infraestrutura, CEO da{" "}
-          <strong>Vexor – Soluções em TI</strong>, iniciando meus estudos em
-          WebDev pela <strong>Let´s Code</strong> e CyberOps pela{" "}
-          <strong>Cisco</strong>.
+          <ul>
+            <li>Consultor em Segurança da Informação</li>
+            <li>Desenvolvedor Web Full Stack</li>
+            <li>
+              CEO da <strong>Vexor – Soluções em TI</strong>
+            </li>
+          </ul>
         </p>
       </div>
     </div>
